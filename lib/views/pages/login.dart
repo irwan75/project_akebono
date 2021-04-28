@@ -81,7 +81,7 @@ class Login extends StatelessWidget {
                             } else if (result == 0) {
                               viewDefaultDialog("User Anda Belum Terdaftar");
                             } else {
-                              viewDefaultDialog("User Anda Belum Terdaftar");
+                              viewDefaultDialog("Password atau Username Salah");
                             }
                           }
                         },

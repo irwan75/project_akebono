@@ -84,11 +84,11 @@ class InputPage extends StatelessWidget {
                         MaterialButton(
                           color: Colors.green,
                           onPressed: () async {
-                            if (!regExp.hasMatch(_formQty.text.trim())) {
-                              viewDefaultDialog(
-                                  "Pastikan Form QTY hanya berupa angka");
-                            } else if (_formQty.text.isEmpty ||
-                                _formQty.text == "") {
+                            // if (!regExp.hasMatch(_formQty.text.trim())) {
+                            //   viewDefaultDialog(
+                            //       "Pastikan Form QTY hanya berupa angka");
+                            // } else
+                            if (_formQty.text.isEmpty || _formQty.text == "") {
                               viewDefaultDialog(
                                   "Mohon Isi Data Qty Terlebih Dahulu");
                             } else {
